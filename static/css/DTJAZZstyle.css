@@ -24,6 +24,7 @@ body{
 	body {
 		background-image: url(../images/dtjazz/bgMobile.jpg);
 		background-size: 100% auto;
+		background-position: bottom left;
 	}
 
 	.layout-header {
@@ -31,7 +32,7 @@ body{
 	}
 
 	.menu-item {
-		padding: 15px 0.4em !important;
+		padding: 15px 0.3em !important;
 	}
 
 	.section {
@@ -174,7 +175,7 @@ a, a:active, a:visited, a:hover {
 	margin: 0 1.2em;
 	padding: 10px 5px;
 	border-radius: 7px;
-	background-color: rgba(68, 68, 68, 0.7);
+	background-color: rgba(68, 68, 68, 0.);
   }
 
   .gal-img {
