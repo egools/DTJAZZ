@@ -25,21 +25,25 @@ body{
 		background-image: url(../images/dtjazz/bgMobile.jpg);
 		background-size: 100% auto;
 	}
+
+	.layout-header {
+		text-align: center !important;
+	}
+
+	.menu-item {
+		padding: 15px 0.4em !important;
+	}
+
+	.section {
+		padding: 5em 0.5em 0 0.5em !important;
+		min-height: 100vh !important;
+	}
 }
 /*NON MOBILE*/
 @media screen and (min-width: 769px){
 	body{
 		background-image: url(../images/dtjazz/bg.jpg);
 		background-size: auto 100%;
-		
-	}
-
-	.layout-header {
-		text-align: right;
-	}
-
-	.menu-item {
-		padding: 15px 25px !important;
 	}
 }
 
@@ -74,12 +78,13 @@ a, a:active, a:visited, a:hover {
 
 .layout-header {
 	padding: 0;
+	text-align: right;
 }
 
 .menu-item {
 	cursor: pointer;
 	height: 52px;
-	padding: 15px;
+	padding: 15px 25px;
 	text-align: center;
 	font-size: 18px;
 	transition: border, color 0.3s;
@@ -95,7 +100,7 @@ a, a:active, a:visited, a:hover {
 }
 
 .section {
-	padding: 15% 5% 0 5%;
+	padding: 5em 2.5em 0 2.5em;
 	min-height: 100vh !important;
 }
 
@@ -167,10 +172,15 @@ a, a:active, a:visited, a:hover {
 .gallery {
 	text-align: center;
 	margin: 0 1.2em;
+	padding: 10px 5px;
+	border-radius: 7px;
+	background-color: rgba(68, 68, 68, 0.7);
   }
 
   .gal-img {
-	transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;	
+	margin-bottom: -4px;
+	margin-right: -2px;
   }
   
   .gal-img:hover {
@@ -228,7 +238,6 @@ a, a:active, a:visited, a:hover {
 .border-transition:hover {
 		border: 2px solid #2B91A0;
 }
-
 
 .img-download {
 	text-align: center;
