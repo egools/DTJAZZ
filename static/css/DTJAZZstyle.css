@@ -24,7 +24,7 @@ body{
 	body {
 		background-image: url(../images/dtjazz/bgMobile2.jpg);
 		background-size: 100% auto;
-		background-position: bottom left;
+		background-position: top;
 	}
 
 	.layout-header {
@@ -33,7 +33,7 @@ body{
 
 	.menu-item {
 		padding: 15px 0.4em !important;
-		font-size: 16px !important;
+        font-size: 16px !important;
 	}
 
 	.section {
